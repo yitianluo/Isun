@@ -1,0 +1,277 @@
+/* Navigation Bar */
+#nav-bar {
+  padding: 0 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.logo-text {
+  color: #95e1d3;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.logo-pic {
+  width: 60px;
+}
+
+.nav-item {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5vw;
+}
+
+/* Landing Page */
+#landing-page {
+  margin-top: 5.5rem;
+  background-image: url("images/landing-page.png");
+  background-size: cover;
+}
+
+.lp-right {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 7%;
+  width: 70%;
+  color: white;
+  text-align: center;
+}
+
+.find-best {
+  font-family: 'Great Vibes', cursive;
+  font-size: 8vw;
+  margin: 10%, 10%;
+}
+
+.lux-eco {
+  font-family: 'Playfair Display', serif;
+  font-size: 7vw;
+  line-height: 1.5;
+  margin: 5%, 5%;
+}
+
+.landing-p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1vw;
+  width: 80%;
+  display: block;
+  margin: 5% auto;
+}
+
+/* Introduction Section */
+#introduction {
+  text-align: center;
+  padding: 7% 15%;
+  font-family: 'Playfair Display', serif;
+  /* font-family: 'Rosario', sans-serif; */
+  background-color: white;
+}
+
+.intro-col {
+  margin: 2vw 0 3vw;
+  font-size: 3vw;
+  font-weight: 700;
+}
+
+.safe {
+  width: 4vw;
+  height: 4vw;
+  color: #95e1d3;
+}
+
+.organ, .team {
+  font-size: 4vw;
+  color: #f38181;
+}
+
+.p-red {
+  color: #f38181;
+  font-weight: bold;
+}
+
+.col-p {
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+
+/* TBD */
+#tbd {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #95e1d3;
+  color: white;
+}
+
+/* Idea Carousel */
+.idea-carousel {
+  background-color: #95e1d3;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.idea-img {
+  border-radius: 50%;
+  width: 8vw;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(60%);
+}
+
+.idea-h1 {
+  /* color: #f38181; */
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 5vw;
+  margin-bottom: 3vw;
+}
+
+.idea-p {
+  display: inline-block;
+  /* color: #f38181; */
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5vw;
+  font-style: italic;
+  margin-left: 2%;
+}
+
+/* Product Section */
+#product {
+  padding: 7% 10%;
+  text-align: center;
+}
+
+.product-h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 7vw;
+  margin: 0 0 5vw;
+  color: #f38181;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  right: 15px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.layer-class {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Source Sans Pro', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.product-box {
+  /* position: relative; */
+  margin-bottom: 2vw;
+}
+
+.product-image {
+  /* object-fit: cover; */
+  display: block;
+  width: 100%;
+}
+
+.product-box:hover .layer {
+  opacity: 0.8;
+}
+
+@media (max-width:1028px) {
+  .layer {
+    opacity: 0.6;
+  }
+
+  .layer-class {
+    line-height: 1.2;
+  }
+}
+
+/* Form Section */
+.form-div {
+  text-align: left;
+  padding: 20px 2vw 4rem 2vw;
+}
+
+.form-group {
+  margin-bottom: 8px;
+}
+
+label {
+  margin-bottom: 4px;
+}
+/* Map Section */
+#contact {
+  padding: 7% 10%;
+  text-align: center;
+  background-color: #95e1d3;
+}
+
+#map {
+  background-color: white;
+  width:90%;
+  height: 20rem;
+  margin: 0 auto;
+}
+
+.map-div {
+  padding: 20px 2vw 10px 2vw;
+}
+
+@media (max-width:1028px){
+  #map {
+    margin-bottom: 20px;
+  }
+}
+
+.contact-info {
+  width: 90%;
+  padding: 1vw 0;
+  text-align: left;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.1;
+  margin: auto;
+}
+
+.contact-p {
+  margin-bottom: 6px;
+}
+
+.btn-div {
+  text-align: right;
+  padding-top: 1rem;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: white;
+  text-align: center;
+  padding: 3% 7% 2%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer-icon {
+  padding: 0 1.2% 2%;
+}
