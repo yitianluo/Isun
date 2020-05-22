@@ -26,7 +26,7 @@
 /* Landing Page */
 #landing-page {
   margin-top: 5.5rem;
-  background-image: url("images/landing-page.png");
+  background-image: url("/images/landing-page.png");
   background-size: cover;
 }
 
